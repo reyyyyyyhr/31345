@@ -11,7 +11,7 @@ const config = {
 
     "blacklisted": [""],
     "globalBan": [""],
-    "token": "process.env.NzM1NTI0NzY0NjQ2Mzc1NDY2.Xxhg0Q.m12n4-Cd1hOdY6wQc3X1yNpl92g",
+    "token": "process.env.NzM1NTI0NzY0NjQ2Mzc1NDY2.Xxhg0Q.ASzPFvPQ5IXjxzXP2YUWAfEGUi4",
     // LINKS:
     "github": "https://github.com/derekdinan/Tsuyo",
     "supportServer": "https://discord.gg/3hbeQgY",
