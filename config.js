@@ -2,16 +2,16 @@ const port = process.env.port || 3000;
 const ip = require("ip"); // Only gets your IP, does nothing else
 
 const config = {
-    "botName": "Tsuyo",
-    "owners": ["191517443519152129", "493922020783030282"],
-    "devs": [],
-    "mods": [],
+    "botName": "sonomod",
+    "owners": ["724902025661513769"],
+    "devs": ["724902025661513769"],
+    "mods": ["649875297218461696","825488821135081522"],
     "support": [],
     "helpers": [],
 
     "blacklisted": [""],
     "globalBan": [""],
-    "token": "process.env.BOT_TOKEN",
+    "token": "process.env.NzM1NTI0NzY0NjQ2Mzc1NDY2.Xxhg0Q.m12n4-Cd1hOdY6wQc3X1yNpl92g",
     // LINKS:
     "github": "https://github.com/derekdinan/Tsuyo",
     "supportServer": "https://discord.gg/3hbeQgY",
@@ -20,17 +20,17 @@ const config = {
     // Dashboard settings
     "dashboardEnabled": false, // Off by default
     "port": port,
-    "clientId": process.env.CLIENT_ID,
-    "clientSecret": process.env.CLIENT_SECRET,
+    "clientId": process.env.735524764646375466,
+    "clientSecret": process.env.-TwaGVul-gyVHZiu9wWtg8p_KCIijQXH,
     "scopes": ["identify", "guilds"],
     "redirectUri": "http://" + ip.address() + ":" + port + "/authorize/callback",
 
     "defaultSettings": {
-        "prefix": ";;",
-        "language": "en-US",
+        "prefix": ",",
+        "language": "en-UK",
         "modLogChannel": "logs",
-        "modRole": "Moderator",
-        "adminRole": "Administrator",
+        "modRole": "✦. ࿔ mods ♡",
+        "adminRole": "-; ♡.° admins ✧",
         "muteRole": "Muted",
         "noPermissionNotice": "true",
         "pointsEnabled": "false",
@@ -66,7 +66,7 @@ const config = {
 
         {
             level: 2,
-            name: "Server Owner",
+            name: "- ̗̀꒰ owners ꒱ ❞",
 
             check: (message) => message.channel.type === "text" ? (message.guild.ownerID === message.author.id ? true : false) : false
         },
